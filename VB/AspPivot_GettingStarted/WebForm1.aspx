@@ -14,15 +14,15 @@
         <div>
             <dx:ASPxPivotGrid ID="ASPxPivotGrid1" runat="server" ClientIDMode="AutoID" DataSourceID="SqlDataSource1">
                 <Fields>
-                    <dx:PivotGridField ID="fieldCountry" Area="ColumnArea" AreaIndex="0" FieldName="Country" Name="fieldCountry">
+                    <dx:PivotGridField ID="fieldCountry" Area="ColumnArea" AreaIndex="0" FieldName="Country">
                     </dx:PivotGridField>
-                    <dx:PivotGridField ID="fieldProductName" Area="RowArea" AreaIndex="1" FieldName="ProductName" Name="fieldProductName">
+                    <dx:PivotGridField ID="fieldProductName" Area="RowArea" AreaIndex="1" FieldName="ProductName">
                     </dx:PivotGridField>
-                    <dx:PivotGridField ID="fieldCategoryName" Area="RowArea" AreaIndex="0" FieldName="CategoryName" Name="fieldCategoryName">
+                    <dx:PivotGridField ID="fieldCategoryName" Area="RowArea" AreaIndex="0" FieldName="CategoryName">
                     </dx:PivotGridField>
-                    <dx:PivotGridField ID="fieldExtendedPrice" Area="DataArea" AreaIndex="0" FieldName="Extended_Price" Name="fieldExtendedPrice">
+                    <dx:PivotGridField ID="fieldExtendedPrice" Area="DataArea" AreaIndex="0" FieldName="Extended_Price">
                     </dx:PivotGridField>
-                    <dx:PivotGridField ID="fieldSalesPerson" Area="ColumnArea" AreaIndex="1" FieldName="Sales_Person" Name="fieldSalesPerson">
+                    <dx:PivotGridField ID="fieldSalesPerson" Area="ColumnArea" AreaIndex="1" FieldName="Sales_Person">
                     </dx:PivotGridField>
                 </Fields>
                 <OptionsData DataProcessingEngine="LegacyOptimized" />
