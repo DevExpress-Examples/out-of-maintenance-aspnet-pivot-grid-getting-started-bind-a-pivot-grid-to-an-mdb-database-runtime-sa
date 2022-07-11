@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="WebForm1.aspx.vb" Inherits="AspPivot_GettingStarted.WebForm1" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="WebForm1.aspx.vb" Inherits="AspPivot_GettingStarted.WebForm1" %>
 
 <%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
     Namespace="DevExpress.Web.ASPxPivotGrid" TagPrefix="dx" %>
@@ -13,7 +13,7 @@
     <form id="form1" runat="server">
         <div>
             <dx:ASPxPivotGrid ID="ASPxPivotGrid1" runat="server" ClientIDMode="AutoID" DataSourceID="SqlDataSource1" IsMaterialDesign="False">
-              <Fields>
+                <Fields>
                     <dx:PivotGridField ID="fieldCountry" Area="ColumnArea" AreaIndex="0">
                         <DataBindingSerializable>
                             <dx:DataSourceColumnBinding ColumnName="Country" />
